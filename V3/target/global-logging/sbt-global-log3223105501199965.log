@@ -1,0 +1,22 @@
+[debug] > Exec(all {file:/C:/Users/bhuan/Documents/Group3_cs476_Project/Brian_Huang_cs476_hw2/}root/products {file:/C:/Users/bhuan/Documents/Group3_cs476_Project/Brian_Huang_cs476_hw2/}root/test:products, None, None)
+[debug] Evaluating tasks: Compile / products, Test / products
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 1 Scala source to C:\Users\bhuan\Documents\Group3_cs476_Project\Brian_Huang_cs476_hw2\target\scala-3.0.0-M2\classes ...
+[warn] -- [E029] Pattern Match Exhaustivity Warning: C:\Users\bhuan\Documents\Group3_cs476_Project\Brian_Huang_cs476_hw2\src\main\scala\Main.scala:39:66 
+[warn] 39 |  def eval(expression: Expression): EvaluateEnvironmentFunction = expression match {
+[warn]    |                                                                  ^^^^^^^^^^
+[warn]    |                   match may not be exhaustive.
+[warn]    |
+[warn]    |                   It would fail on pattern case: Expression.Scope(_, _)
+[warn] -- [E029] Pattern Match Exhaustivity Warning: C:\Users\bhuan\Documents\Group3_cs476_Project\Brian_Huang_cs476_hw2\src\main\scala\Main.scala:494:75 
+[warn] 494 |  def Partial(partialExp:Expression): EvaluateEnvironmentFunctionPartial = partialExp match{
+[warn]     |                                                                           ^^^^^^^^^^
+[warn]     |match may not be exhaustive.
+[warn]     |
+[warn]     |It would fail on pattern case: Expression.Subtract(_, _), Expression.Divide(_, _), Expression.Scope(_, _)
+[warn] two warnings found
+[info] done compiling
+[success] Total time: 1 s, completed May 6, 2021, 8:39:08 PM
+[debug] > Exec(idea-shell, None, None)
+[debug] > Exec(, None, None)
+[debug] > Exec(idea-shell, None, None)

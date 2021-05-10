@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../HW2/476-HW1/.idea/modules/Ethan_Luong_cs476_hw2.iml" filepath="$PROJECT_DIR$/../HW2/476-HW1/.idea/modules/Ethan_Luong_cs476_hw2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/dotty-simple.iml" filepath="$PROJECT_DIR$/.idea/modules/dotty-simple.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../HW2/476-HW1/.idea/modules/dotty-simple-build.iml" filepath="$PROJECT_DIR$/../HW2/476-HW1/.idea/modules/dotty-simple-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/project.dotty-simple-build.iml" filepath="$PROJECT_DIR$/.idea/modules/project.dotty-simple-build.iml" />
+    </modules>
+  </component>
+</project>
