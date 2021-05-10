@@ -1,0 +1,37 @@
+[0m[[0m[33mwarn[0m] [0m[0m[33m-- Deprecation Warning: C:\Users\Ethan\Documents\GitHub\476-HW1\src\main\scala\Main.scala:48:24 [0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m48 |[0m        macros = macros - getName(expression)[0m
+[0m[[0m[33mwarn[0m] [0m[0m   |                 [33m^^^^^^^^[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m   |[33mmethod[0m [35m-[0m in [33mtrait[0m [35mMapOps[0m is deprecated since 2.13.0: Use - or remove on an immutable Map[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m-- Deprecation Warning: C:\Users\Ethan\Documents\GitHub\476-HW1\src\main\scala\Main.scala:50:22 [0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m50 |[0m      macros = macros + (getName(expression) -> optional)[0m
+[0m[[0m[33mwarn[0m] [0m[0m   |               [33m^^^^^^^^[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m   |[33mmethod[0m [35m+[0m in [33mtrait[0m [35mMapOps[0m is deprecated since 2.13.0: Consider requiring an immutable Map or fall back to Map.concat.[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m-- Deprecation Warning: C:\Users\Ethan\Documents\GitHub\476-HW1\src\main\scala\Main.scala:54:30 [0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m54 |[0m        variables = variables - getName(expression)[0m
+[0m[[0m[33mwarn[0m] [0m[0m   |                    [33m^^^^^^^^^^^[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m   |[33mmethod[0m [35m-[0m in [33mtrait[0m [35mMapOps[0m is deprecated since 2.13.0: Use - or remove on an immutable Map[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m-- Deprecation Warning: C:\Users\Ethan\Documents\GitHub\476-HW1\src\main\scala\Main.scala:56:28 [0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m56 |[0m      variables = variables + (getName(expression) -> eval(optional))[0m
+[0m[[0m[33mwarn[0m] [0m[0m   |                  [33m^^^^^^^^^^^[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m   |[33mmethod[0m [35m+[0m in [33mtrait[0m [35mMapOps[0m is deprecated since 2.13.0: Consider requiring an immutable Map or fall back to Map.concat.[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m-- [E029] Pattern Match Exhaustivity Warning: C:\Users\Ethan\Documents\GitHub\476-HW1\src\main\scala\Main.scala:40:47 [0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m40 |[0m  [33mdef[0m [36mgetName[0m([36mexpression[0m: [35mExpression[0m):[35mString[0m = expression [33mmatch[0m{[0m
+[0m[[0m[33mwarn[0m] [0m[0m   |                                               [33m^^^^^^^^^^[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m   |[33mmatch[0m may not be exhaustive.[0m
+[0m[[0m[33mwarn[0m] [0m[0m   |[0m
+[0m[[0m[33mwarn[0m] [0m[0m   |It would fail on pattern case: Expression.Value(_), Expression.Scope(_, _), Expression.Add(_, _), Expression.Multiply(_, _), Expression.MacroAssign(_, _), Expression.AssignVar(_, _)[0m
+[0m[[0m[33mwarn[0m] [0m[0m   |(More unmatched cases are elided)[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m-- [E029] Pattern Match Exhaustivity Warning: C:\Users\Ethan\Documents\GitHub\476-HW1\src\main\scala\Main.scala:45:84 [0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m45 |[0m  [33mdef[0m [36massignExpression[0m([36mexpression[0m: [35mExpression[0m, [36moptional[0m:[35mExpression[0m = Empty()):[35mInt[0m = expression [33mmatch[0m{[0m
+[0m[[0m[33mwarn[0m] [0m[0m   |                                                                                    [33m^^^^^^^^^^[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m   |[33mmatch[0m may not be exhaustive.[0m
+[0m[[0m[33mwarn[0m] [0m[0m   |[0m
+[0m[[0m[33mwarn[0m] [0m[0m   |It would fail on pattern case: Expression.Value(_), Expression.Scope(_, _), Expression.Add(_, _), Expression.Multiply(_, _), Expression.MacroAssign(_, _), Expression.Let(_, _)[0m
+[0m[[0m[33mwarn[0m] [0m[0m   |(More unmatched cases are elided)[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m-- [E029] Pattern Match Exhaustivity Warning: C:\Users\Ethan\Documents\GitHub\476-HW1\src\main\scala\Main.scala:61:41 [0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m61 |[0m  [33mdef[0m [36meval[0m([36mexpression[0m: [35mExpression[0m):[35mInt[0m = expression [33mmatch[0m {[0m
+[0m[[0m[33mwarn[0m] [0m[0m   |                                         [33m^^^^^^^^^^[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m   |[33mmatch[0m may not be exhaustive.[0m
+[0m[[0m[33mwarn[0m] [0m[0m   |[0m
+[0m[[0m[33mwarn[0m] [0m[0m   |It would fail on pattern case: Expression.Scope(_, _), Expression.Empty()[0m
+[0m[[0m[33mwarn[0m] [0m[0m7 warnings found[0m
